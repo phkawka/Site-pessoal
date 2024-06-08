@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .hero {
+            background-color: #eaeaea;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site Pessoal</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#sobre-mim">Sobre Mim</a>
+        <a href="#trajetoria-de-sucesso">Trajetória de Sucesso</a>
+        <a href="#business-man">Business Man</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container">
+        <section id="home" class="hero">
+            <h2>Bem-vindo ao Meu Site Pessoal</h2>
+            <p>Conheça minha história, minhas conquistas e os produtos que ofereço.</p>
+            <img src="seu_foto.jpg" alt="Sua Foto">
+        </section>
+
+        <section id="sobre-mim">
+            <h2>Sobre Mim</h2>
+            <p>Sou [Seu Nome], um profissional dedicado com paixão por [sua área]. Minha jornada começou [breve história].</p>
+        </section>
+
+        <section id="trajetoria-de-sucesso">
+            <h2>Trajetória de Sucesso</h2>
+            <p>Ao longo dos anos, conquistei diversas realizações que me trouxeram até aqui. [Detalhes sobre suas conquistas e marcos importantes].</p>
+        </section>
+
+        <section id="business-man">
+            <h2>Business Man</h2>
+            <p>Como um empreendedor, ofereço uma gama de produtos e serviços de alta qualidade. Confira alguns deles abaixo:</p>
+            <ul>
+                <li>Produto 1 - Descrição</li>
+                <li>Produto 2 - Descrição</li>
+                <li>Produto 3 - Descrição</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
